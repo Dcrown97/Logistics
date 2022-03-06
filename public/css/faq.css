@@ -1,0 +1,47 @@
+
+.faq h1{
+    font-size: 20;
+    font-weight: bolder;
+    color: #9D2143;
+    padding-bottom: 15px;
+}
+.divider{ 
+    width:160px;
+    height: 4px;
+    background: #FF9602;
+    display: block;
+    margin-bottom: 25px;
+
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.reg{
+    font-weight: bolder;
+    font-size: 20;
+    margin:40px auto;
+}
+.q{
+    font-size: 17px;
+    font-weight: 400;
+}
+.order{
+    margin:40px auto;
+}
+.transactions{
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+    /* @Media Query */
+    @media only screen and (max-width: 770px){
+        .heads ul{
+            width: 67%;
+
+        }
+
+    }   

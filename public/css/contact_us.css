@@ -1,0 +1,124 @@
+
+
+/* new code ends */
+
+#contactus {
+    color: #9d2143;
+    font-size: 2.5rem;
+    margin-top: -19px;
+    padding-bottom: 15px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  .lne { 
+    width: 100%;
+    background-color: rgb(255, 150, 2);
+    padding: 1px;
+    margin-top: -9px;
+    margin-bottom: 11px;
+    padding-left: 12px;
+  }
+  .form-input {
+    width: 100%;
+    padding: 10px;
+  }
+  .inputs {
+    width: 60%;
+    padding: 20px;
+    background-color: gray;
+    margin: 0 auto;
+  }
+  input {
+    width: 80%;
+    margin-bottom: 17px;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 5px;
+  }
+  .txtarea{
+      width: 80%;
+      margin-bottom: 17px;
+      border: 1px solid rgb(204, 204, 204);
+      padding: 5px;
+      }
+  .label {
+    /* padding: -5px 15px; */
+    text-align: center !important;
+  }
+  .wrapper {
+    background-color: #ffffff;
+  }
+  .contact-form {
+    border: 1px solid gray;
+    flex-direction: column;
+    padding: 15px;
+    width: 65%;
+    margin-top: 30px;
+    margin-left: 17%;
+  }
+  img {
+    width: 50%;
+    /* height: 10%;  */
+    object-fit: contain;
+  }
+  #recaptcha {
+    position: relative;
+  }
+  #recaptcha-img {
+    position: absolute;
+    /* margin-top: 33px; */
+    width: 18%;
+    right: 0;
+    top: 1%;
+  }
+  .check-box {
+    border: 1px solid rgb(202, 200, 200);
+    background-color: #f9f9f9;
+    width: 40%;
+    /* height: 20%; */
+    margin-left: 12px;
+    /* padding: 10px; */
+    padding-top: 10px;
+    position: relative;
+  }
+  #bttn{
+      margin-top: 30px;
+      margin-bottom: 2px;
+      background-color: #9D2143;
+      margin-left: 75px;
+      border-color: #9d2143;
+  }
+  h2{
+      color: #ff9f00;
+  }
+  .buttn {
+  background-color: rgb(194,58,96);
+  border:0;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10%;
+  border-radius: 8px;
+  }
+
+
+  @media screen and (max-width: 770px) {
+    .contact-form {
+      width: 90%;
+      margin-left: 8%;
+    }
+
+  }
+
+  /* footer ends */
+  @media screen and (max-width: 480px) {
+    .form-label { float: left;}
+    /* #main {margin-left: 216px;} */
+
+    #bttn{
+      margin-left: 0;
+    }
+
+  }
+
+  /* width: 100px; */

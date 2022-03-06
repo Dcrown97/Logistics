@@ -1,0 +1,361 @@
+#bgcover{
+    background-image: url("./dellyman/banner.jpg");
+    height: 670px;
+    /* width: 100%; */
+    background-size: contain;
+    position: relative;
+    /* border-bottom: 20px solid,#FF9602; */
+    /* background-repeat: no-repeat; */
+}
+
+/* border-bottom: 6px solid #ff9602; */
+
+#header{
+    /* margin-bottom: 20px solid #FF9602; */
+    border-bottom: 5px solid #FF9602;
+}
+#bg{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    padding-left: 20px;
+    
+
+}
+#listdiv{
+    display: flex;
+}
+#navbarlist{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color:#FAD7CE;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+}
+
+#navlogo {
+    padding-left: 10px;  
+}
+#navlogo img{
+    width: 160px; 
+
+}
+
+#navbarlist li{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+.navtexts h1{
+    color: #FF9602;
+    /* font-size: 20px; */
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navtexts h3{
+    color: #F5FFFA;
+    padding-left: 5%;
+    padding-top: 4%;
+    font-size: 1.5rem;
+}
+.navtexts button{
+    font-size: 16px;
+    background-color: #FF9602;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;;
+}
+
+.navtexts{
+    padding-top: 0px;
+    padding-left: 16%;
+}
+
+
+#content{
+    width: 80%;
+    margin: 0 auto;
+    text-justify: right;
+    line-height: 1.5rem;
+}
+
+#cprflex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #9D2143;
+    text-align: center;
+    gap: 10px;
+    padding: 0 auto;
+}
+
+
+#cprflex h4{
+    /* flex: 0 1 auto; */
+    padding: 0 auto;
+    margin: 0px;
+    padding: 10px;
+    /* padding: 0px;*/
+    /* margin: 20px;  */
+}
+#cprflex #c3{
+    flex-grow: 1;
+}
+#cprflex #c2{
+    border-left: 2px solid #9D2143;
+    border-right: 2px solid #9D2143;
+}
+
+/* #cprflex #c1, #cprflex #c2{
+    border-right: 2px solid #9D2143;
+} */
+
+
+#colflx{
+    display:flex;
+    flex-wrap: wrap;
+    /* height: 40%; */
+    justify-content: center;
+    flex-basis: 1 1 0px;
+    width: 70%;
+    margin: 0 auto;
+}
+.tabcol{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#row{
+    position: relative;
+    width: 100%;
+}
+
+.smimg{
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    left: 46.2%; 
+    padding: 15px;
+
+}
+.smimg img{
+    /* margin: 15px; */
+}
+
+
+.rowimg img{
+    height:90px;
+    padding-right: 20px;
+}
+#colflx .rowimg{
+    flex: 1 1 0px;
+    padding-top: 3%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+}
+#colflx .rowtxt{
+    flex: 1 1 0px;
+    padding-left: 5%;
+    border-left: 2px dotted #9D2143;
+    margin-left: 0px;
+    box-sizing: border-box; 
+}
+
+.rowtxt p{
+    margin-bottom: 50px;
+}
+
+#colflx .rowtxt h4{
+    color: #9D2143;
+}
+
+.s6{
+    background-color: #9D2143;
+    border-bottom: 6px solid #ff9602;
+}
+.sc1{
+    display: flex;
+    justify-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sc1 .ptext{
+    flex: 0 0 50%; 
+    display: flex;
+    /* align-self: flex-start; */
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.sc1 .ptext h2{
+    color: #ff9602;
+    margin-top: 0px;
+}
+
+.sc1 .btn{
+   flex: 0 0 50%; 
+   display: flex;
+   /* align-self: flex-end; */
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.sc1 .btn button{
+    padding: 15px;
+    background-color: #C23A60;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer p{
+    margin: 0.5rem;
+}
+
+.ftrflx{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.flogo img{
+    width: 70%;
+}
+.socialflex{
+    display: flex;
+}
+.social{
+    background-color: blue;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.ftext{
+    color: white;
+}
+
+.fone{
+    flex: 1 1 20%;
+}
+.ftwo{
+    flex: 1 1 20%
+}
+.fthree{
+    flex: 1 1 25%;
+}
+.ffour{
+    flex: 1 1 35%;
+}
+
+.foothead{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.fa{
+    padding-left: 10px;
+}
+
+.last{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footerline hr{
+    /* background-color:#9D2143; */
+    border: none;
+    border-bottom: 0.1rem solid #9D2143;
+}
+.lasttext{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    #bg{
+        /* display: flex; */
+        width:100%;
+        /* justify-content: space-evenly; */
+        padding-top: 35px;
+        padding-left: 0px;
+        
+    
+    }
+    #navbarlist{
+        justify-content: center;
+
+    }
+
+    .smimg{
+        left: 44.8%; 
+    
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    #colflx{
+        flex-direction: column;
+    }
+
+    .smimg{
+        display:none;
+    }
+    .ftrflx{
+        text-align: center;
+    }
+    .rowtxt{
+        text-align: center;
+    }
+    .rowimg img{
+        padding-right: 0px;
+    }
+    
+}
+
+
+body, html{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+    Arial,sans-serif,"Apple Color Emoji", "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+#faq-btns{
+    display: flex;
+}
+
+#faq-btns a span {
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px;
+}
+
+#faq-btns a span:hover {
+    opacity: 0.9;
+}
+
+#faq-btns a {
+    padding: 5px;
+}
+
+.cut{
+    display: flex;
+    justify-content: space-between;
+}
+#card-header {
+    background-color: #1f415f;
+    color: white;
+}
+
+#faq-login-btn-sec {
+    text-align: center;
+}
+
+#faq-login-btn {
+    background-color: #1f415f;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+#addNew-btn{
+    background-color: #1f415f;
+    color: white;
+    padding: 0.6rem;
+    /* color: white; */
+}
+
+#view-btn a {
+    background-color: #1f415f;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+#my_table {
+    text-align: center;
+}
+
+
+/* ADMIN LOGIN FORM  */
+#login-form {
+    padding: 15px 10px;
+}
+
+#login-btn {
+    text-align: center;
+}
+
+#login-btn a { 
+    background-color: #1f415f;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px;
+}
+
+#main-footer {
+    text-align: center;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#profile .form-group {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#showBtn {
+    background-color: #1f415f;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px;
+}
+
+#showBtn:hover {
+    background-color: #1f415f;
+}
